@@ -9,23 +9,24 @@ const original = {
         }
 
 
-const rev = () => {
-	let rev_dict = {}
-	for (old_key in original) {
+function rev(original) {
+	const rev_dict = {}
+	const keys = Object.keys(original)
+	keys.forEach((old_key, index) => {
 		let old_value = original[old_key];
-	}
-	if (old_value in rev_dict == false) {
-		rev_dict[old_value] = [old_key];
-	}
-	else {
-		let value_list = rev_dict[old_value];
-		value_list.push(old_key);
-	}
+	
+		if (old_value in rev_dict == false) {
+			rev_dict[old_value] = [old_key];
+		} else { 
+			let value_list = rev_dict[old_value]
+			value_list.push(old_key)
+		}
 	console.log(rev_dict)
 	return rev_dict
+})
 }
 
-console.log(rev())
+console.log(rev(original))
 
 /*
 def make_reverse():
