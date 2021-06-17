@@ -22,6 +22,7 @@ def add_color(data, line):
 
 def color_from_line(line):
     parts = line.split(',')
+    print(parts)
     r = int(parts[1])
     g = int(parts[2])
     b = int(parts[3])
