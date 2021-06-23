@@ -1,7 +1,10 @@
-my_data = {["hi", "hello"], ["bye", "byebye"]}
-
+my_data = {
+        "this":"that",
+        "that":"this"
+        }
+print(my_data)
 def do_sumn(stuff):
-    stuff.append("he")
+    stuff["the other"] = "he"
     return stuff
 
 print(do_sumn(my_data))
