@@ -1,4 +1,4 @@
-const fruitsColors = require('./fruits.json')
+const fruitsColors = require('/fruits.json')
 
 console.log(fruitsColors)
 
