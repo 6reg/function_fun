@@ -12,11 +12,4 @@ for x in range(WIDTH):
         else:
             column.append(' ') # Add a dead cell
     next_cells.append(column) # next_cells is a list of column lists 
-<<<<<<< HEAD
-
-
-=======
-    print(column)
-    print(next_cells)
-    print(len(column), len(next_cells))
->>>>>>> 6e3d0167c7bfd3bea9e9329b58bfbfdcd63a69b3
+print(next_cells)
