@@ -1,7 +1,8 @@
 arr = [2, 15, 9]
 
-def sort(arr):
-	for element in arr:
-	if arr[element] > arr[element + 1]:
+def sortin(arr):
+	arr.sort()
+	return arr
+
+print(sortin(arr))
 		
-"hello"
