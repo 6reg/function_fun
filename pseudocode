@@ -1,0 +1,26 @@
+Pseudocode abstracts away syntax
+Break down large problems into smaller manageable pieces
+Pseudocode first, then google
+Break things down with pure programming logic
+How to:
+  * capitalize key commands (IF, OR, etc)
+  * one statement per line
+  * use indentation
+  * be specific
+  * keep it simple
+
+Fizz Buzz
+Write short program that prints each number from 1 to 20
+
+FOR LOOP:
+  set counter to 1
+  break when counter reaches 20
+  increment counter by 1
+    IF number MOD 15 === 0
+      print 'FizzBuzz'
+    ELSE IF number MOD 3 === 0
+      print 'Fizz'
+    ElSE F number MOD 5 === 0
+      print 'Buzz'
+    ELSE 
+      print number

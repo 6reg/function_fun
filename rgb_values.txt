@@ -1,0 +1,10 @@
+navy blue,27,34,98
+blue,41,201,234
+lime green,99,212,32
+red brown,160,89,66
+ornage,204,117,64
+teal,12,298,219
+blue,73,97,236
+dark tan,209,202,95
+moss green,77,147,83
+magenta,136,20,75
